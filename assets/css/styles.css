@@ -1,0 +1,52 @@
+.wrapper {
+  width: 95%;
+  margin: 5% 5%; }
+
+a {
+  text-decoration: none; }
+
+.block {
+  color: #47a3da;
+  background-color: white;
+  width: 31.66667%;
+  font-family: "Black Ops One", sans-serif;
+  display: inline-block; }
+  @media screen and (max-width: 1005px) {
+    .block {
+      width: 47.5%; } }
+  @media screen and (max-width: 660px) {
+    .block {
+      width: 95%; } }
+  .block i {
+    display: block;
+    margin: 20% 0 10% 30%;
+    font-size: 10em; }
+  .block .text {
+    margin: 2% 0;
+    border-top: solid 5px #47a3da;
+    font-size: 5em; }
+  .block .why {
+    margin: 0 27.5%; }
+  .block .we {
+    margin: 0 28%; }
+  .block .cant {
+    margin: 0 18%; }
+  .block .have {
+    margin: 0 21%; }
+  .block .nice {
+    margin: 0 21%; }
+  .block .things {
+    margin: 0 8%; }
+  .block .rollover-text {
+    color: white;
+    font-size: 2.5em;
+    margin: 2% 0 5% 28%; }
+  .block:hover {
+    background-color: #47a3da;
+    color: white; }
+    .block:hover .text {
+      border-bottom: solid 5px white; }
+    .block:hover .rollover-text {
+      display: block; }
+
+/*# sourceMappingURL=styles.css.map */
